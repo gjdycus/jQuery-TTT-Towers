@@ -1,0 +1,52 @@
+section {
+  width: 450px;
+  margin: auto;
+}
+
+li {
+  position: absolute;
+  float: right;
+  list-style: none;
+  height: 40px;
+  clear: both;
+}
+
+#tower-level0 {
+  left: 10px;
+  bottom: 0px;
+  width: 100px;
+  background-color: green;
+}
+
+#tower-level1 {
+  left: 22.5px;
+  bottom: 40px;
+  width: 75px;
+  background-color: red;
+}
+
+#tower-level2 {
+  left: 35px;
+  bottom: 80px;
+  width: 50px;
+  background-color: blue;
+}
+
+ul{
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 200px;
+  margin: auto;
+  background-color: #eee;
+  padding: 0px;
+}
+
+.tower {
+  height: 150px;
+  width: 10px;
+  background-color: tan;
+  position: absolute;
+  left: 55px;
+  bottom: 0px;
+}
